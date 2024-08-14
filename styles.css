@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    height: auto%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-picture img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.about {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.projects {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.projects h2 {
+    margin: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 15px;
+}
+
+.projects h3 {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.projects p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); 
+}
+
+h1, h2 {
+    margin: 10px 0;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    margin: 10px 0;
+}
